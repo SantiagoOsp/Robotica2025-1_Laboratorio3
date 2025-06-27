@@ -62,26 +62,52 @@ Esta pregunta depende mucho del contexto en el que se hace, pues si se requiere 
 
 
 ## Movimientos manuales
-El robot Motoman MH6 dispone de un controlador DX100
+El robot Motoman MH6 dispone de un controlador DX100, que tiene a disposicion botones para cada uno de los ejes de libertad. La marca YASKAWA tiene una nomenclatura especifica para poder identificar cada una de las articulaciones y podremos verlas en la siguiente imagen:
+
+![](images/nomen.png)
+
+Para el movimiento de las primeras 3 articulaciones o el movimiento en cada uno de los ejes dispone del siguiente teclado:
+
+![](images/teclado_tras.png)
+
+> Teclado para mover primeros 3 ejes y lineal en ejes X, Y y Z.
+
+Por otra parte, para mover las ultimas tres articulaciones(mas alejadas de la base) o el movimiento rotacional, en cada uno de los ejes, dispone del siguiente teclado:
+
+![](images/teclado_rot.png)
+
+> Teclado para mover los ultimos 3 ejes y las rotaciones en X, Y y Z.
 
 
 
 ## Niveles de velocidad
-Niveles
+El manipulador dispone de 4 niveles de velocidad en la forma automatica, y tres botones que permiten cambiar la velocidad en la forma manual. En el modo automatico se pueden diferenciar de la siguiente forma:
+
+![](images/vel.png)
+
+> Formas de velocidad automatica.
+
+Por la parte manual tiene tres botones que se distribuyen como se muestra en la imagen. Estos deben ser presionados constantemente mientras se manipula el robot si deseamos alguna de estas velocidades, sino, se usa la que tiene por defecto.
+
+![](images/vel_manu.png)
+
+> Botones para cambiar velocidad.
 
 
 
 ## RoboDK
-Manual de robodk
+
 
 ### RoboDK vs. RobotStudio
-Comparacion
+
 
 
 ## Código
-Codigo en python
+El codigo implementado en python realiza una conexion al robot por medio de la IP del controlador, una vez realizada la conexión, el codigo realiza un mapedo de ubicaciones a partir de la formula de una rosa polar donde va creando target's que va a seguir el manipulador, una vez terminada la rosa, dibuja las iniciales de los integrantes del grupo, para luego terminar en una posición de HOME determinada por los integrantes.
+
+[Código en python](src/RosPolar.py)
 
 
 
 ## Video: simulación e implementación
-Se presenta la simulación e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: https://youtu.be/p57teWZQysk
+Se presenta la simulación e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: 
