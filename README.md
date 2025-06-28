@@ -110,4 +110,6 @@ El codigo implementado en python realiza una conexion al robot por medio de la I
 
 
 ## Video: simulación e implementación
-Se presenta la simulación e implementación correspondientes a lo descrito anteriormente en el siguiente enlace de YouTube: 
+Se presenta la simulación e implementación correspondientes a lo descrito anteriormente en los siguientes enlaces de YouTube: 
+- [Simulación](https://youtu.be/0AYZHtmjUtQ)
+- [Demostración](https://youtu.be/n1M_4gDCe98)
