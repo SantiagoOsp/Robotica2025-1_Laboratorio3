@@ -25,13 +25,17 @@ En este repositorio analizaremos y explicaremos las principales diferencias que 
 
 
 ## Cuadro Comparativo
-Detalles | Motoman MH6 | IRB 140
----------|-------------|-------------
-Carga max | ## | ##
-Alcance  | ## | ##
-GL(Grados Libertad) | ## | ##
-Velocidad | ## | ##
-Aplicaciones típicas | ## | ## 
+| **Especificación** | **Motoman MH6** | **ABB IRB 140** |
+|---------------------|-----------------|----------------|
+| **Marca** | Yaskawa Motoman | ABB Robotics |
+| **Controlador** | DX100 | IRC5 |
+| **Carga útil (Payload máximo)** | 6 kg | 6 kg |
+| **Alcance máximo (Radio de trabajo)** | 1,420 mm | 810 mm |
+| **Grados de libertad (DOF)** | 8 ejes (6 del brazo (únicamente) | 6 ejes |
+| **Peso del robot** | 130 kg | 98 kg |
+| **Rango de movimientos por eje** | S: ±180°<br>L: +155°/-90°<br>U: +150°/-65°<br>R: ±180°<br>B: ±125°<br>T: ±360° | Axis 1: ±160°<br>Axis 2: +110°/-110°<br>Axis 3: +250°/-160°<br>Axis 4: ±200°<br>Axis 5: ±140°<br>Axis 6: ±400° |
+| **Velocidad máxima** | Hasta 187°/s | Hasta 450°/s |
+| **Software de simulación** | RoboDK, MotoSim | RobotStudio |
 
 
 
