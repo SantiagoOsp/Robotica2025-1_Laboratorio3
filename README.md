@@ -100,9 +100,24 @@ Por la parte manual tiene tres botones que se distribuyen como se muestra en la 
 
 
 ## RoboDK
+### Aplicaciones
+- Simulación de trayectorias. 
+- Programación.
+- Importación de CAD (STEP, IGES, STL).
+- Simulación con múltiples robots, transportadores y periféricos en celdas completas.  
+- Calibración de herramientas (TCP) y bases de referencia del robot.
+### Comunicación
+RoboDK puede comunicarse de dos maneras con el robot:
+- Programación offline: RoboDK genera el código de programa del robot (ej. `.jbi`) usando el postprocesador correspondiente, el archivo se transfiere al controlador del robot por USB, Ethernet o red local, el robot ejecuta el programa de forma independiente.
+- Control en tiempo real: RoboDK puede conectarse al robot vía Ethernet/IP, RoboDK envía comandos de posición y velocidad en tiempo real, el robot sigue las trayectorias definidas en RoboDK mientras se monitorea en la interfaz.
+Cuando RoboDK mueve el robot, realiza lo siguiente:
+1. Calcula la cinemática inversa de cada punto de la trayectoria para obtener los ángulos de las articulaciones.
+2. Genera trayectorias interpoladas según los puntos y velocidades definidas.
+3. Convierte estos movimientos en instrucciones nativas del controlador (ej. `MOVJ`, `MOVL`).
+4. Si está en modo online, envía comandos de movimiento en tiempo real al controlador.
+5. 
 
-
-### RoboDK vs. RobotStudio
+## RoboDK vs. RobotStudio
 
 
 
