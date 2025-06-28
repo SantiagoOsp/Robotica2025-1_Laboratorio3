@@ -119,7 +119,10 @@ Cuando RoboDK mueve el robot, realiza lo siguiente:
 2. Genera trayectorias interpoladas según los puntos y velocidades definidas.
 3. Convierte estos movimientos en instrucciones nativas del controlador (ej. `MOVJ`, `MOVL`).
 4. Si está en modo online, envía comandos de movimiento en tiempo real al controlador.
-5. 
+
+
+
+
 
 ## RoboDK vs. RobotStudio
 ### RoboDK
