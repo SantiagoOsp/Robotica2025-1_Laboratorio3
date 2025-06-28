@@ -118,7 +118,23 @@ Cuando RoboDK mueve el robot, realiza lo siguiente:
 5. 
 
 ## RoboDK vs. RobotStudio
+### RoboDK
+- Multi-marca (Motoman, KUKA, Fanuc, etc.).  
+- Permite importar piezas CAD (STEP, STL) y generar trayectorias sobre ellas.  
+- Usa postprocesadores para generar programas en el lenguaje nativo del robot (ej. `.jbi` para Motoman).  
+- Permite simulación de celdas con múltiples robots, transportadores y periféricos de distintas marcas.  
+- Permite control en tiempo real de algunos robots mediante conexión Ethernet o API.  
+- Interfaz intuitiva, con curva de aprendizaje rápida.  
+- Licencia más económica comparada con software de fabricantes.  
+- Ideal para proyectos académicos y startups con **robots de diferentes marcas**.
 
+### RobotStudio
+- Específico de ABB.  
+- Permite crear y simular celdas de trabajo con herramientas, transportadores y cámaras, pero solo con robots ABB.  
+- Usa el lenguaje RAPID nativo para ABB.  
+- Permite simulación online y offline con monitoreo en tiempo real.  
+- Incluye herramientas de Path Planning, Virtual Commissioning, RobotWare Add-ins y SafeMove.  
+- Permite verificar trayectorias, tiempos de ciclo y zonas de seguridad con alta precisión.
 
 
 ## Código
