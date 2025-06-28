@@ -14,13 +14,17 @@ En este repositorio analizaremos y explicaremos las principales diferencias que 
 
 
 ## Contenidos
-- [Cuadro comparativo entre los dos manipuladores](#cuadro-comparativo)
-- [Posiciones de Home](#posiciones-de-home)
+- [Robotica 2025-1 Laboratorio 3](#robotica-2025-1-laboratorio-3)
+- [Archivos del repositorio](#archivos-del-repositorio)
+- [Contenidos](#contenidos)
+- [Cuadro Comparativo](#cuadro-comparativo)
+- [Posiciones de HOME](#posiciones-de-home)
 - [Movimientos manuales](#movimientos-manuales)
 - [Niveles de velocidad](#niveles-de-velocidad)
 - [RoboDK](#robodk)
+- [RoboDK vs. RobotStudio](#robodk-vs-robotstudio)
 - [Código](#código)
-- [Video de implementación](#video-simulación-e-implementación)
+- [Video: simulación e implementación](#video-simulación-e-implementación)
 
 
 
